@@ -25,11 +25,11 @@ const Gallery: React.FC = () => {
   // Function to assign column spans for Events (6-4-2-2-4 pattern)
   const getEventGridClasses = (index: number): string => {
     const pattern = [
-      'col-span-6', // 1st image spans 6 columns
-      'col-span-4', // 2nd image spans 4 columns
-      'col-span-2', // 3rd image spans 2 columns
-      'col-span-2', // 4th image spans 2 columns
-      'col-span-4', // 5th image spans 4 columns
+      'lg:col-span-6', // 1st image spans 6 columns
+      'lg:col-span-4', // 2nd image spans 4 columns
+      'lg:col-span-2', // 3rd image spans 2 columns
+      'lg:col-span-2', // 4th image spans 2 columns
+      'lg:col-span-4', // 5th image spans 4 columns
     ]
     return `${pattern[index % 5]} h-64 overflow-hidden rounded-lg shadow-lg`
   }
@@ -37,10 +37,10 @@ const Gallery: React.FC = () => {
   // Function to assign column spans for Projects (4-2-2-4 pattern)
   const getProjectGridClasses = (index: number): string => {
     const pattern = [
-      'col-span-4', // 1st image spans 4 columns
-      'col-span-2', // 2nd image spans 2 columns
-      'col-span-2', // 3rd image spans 2 columns
-      'col-span-4', // 4th image spans 4 columns
+      'lg:col-span-4', // 1st image spans 4 columns
+      'lg:col-span-2', // 2nd image spans 2 columns
+      'lg:col-span-2', // 3rd image spans 2 columns
+      'lg:col-span-4', // 4th image spans 4 columns
     ]
     return `${pattern[index % 4]} h-64 overflow-hidden rounded-lg shadow-lg`
   }
@@ -77,7 +77,7 @@ const Gallery: React.FC = () => {
       </div>
 
       {/* Images Section */}
-      <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-6">
+      <div className="grid grid-cols-1 gap-4 sm:grid-cols-1 lg:grid-cols-6">
         {activeTab === 'events' &&
           eventsImages.map((image, index) => (
             <div key={index} className={getEventGridClasses(index)}>
