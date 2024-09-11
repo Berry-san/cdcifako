@@ -1,26 +1,47 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route } from 'react-router-dom'
+import Header from './components/Header'
+import Footer from './components/Footer'
+import Home from './pages/Home'
+import LGExecutives from './pages/LGExecutives'
+import CDCExecutives from './pages/CDCExecutives'
+import PastChairman from './pages/PastChairmen'
+import RegisterCDA from './pages/RegisterCDA'
+import FindYourCDA from './pages/FindYourCDA'
+import MegaCDA from './pages/MegaCDA'
+import Gallery from './pages/Gallery'
+import PoliceAndFireStation from './pages/PoliceAndFireStation'
+import ReportComplaint from './pages/ReportComplaint'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App font-quicksand bg-[#FAFAFA]">
+      <Header />
+      <Routes>
+        {/* Home route */}
+        <Route path="/" element={<Home />} />
+
+        {/* Leadership */}
+        <Route path="/leadership/lg-execs" element={<LGExecutives />} />
+        <Route path="/leadership/cdc-execs" element={<CDCExecutives />} />
+        <Route path="/leadership/past-chairmen" element={<PastChairman />} />
+
+        {/* CDAs */}
+        <Route path="/cda/register-cda" element={<RegisterCDA />} />
+        <Route path="/cda/find-cda" element={<FindYourCDA />} />
+        <Route path="/cda/mega-cda" element={<MegaCDA />} />
+
+        {/* Resources */}
+        <Route
+          path="/resources/police-and-firestation"
+          element={<PoliceAndFireStation />}
+        />
+
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/report-complaint" element={<ReportComplaint />} />
+      </Routes>
+      <Footer />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
