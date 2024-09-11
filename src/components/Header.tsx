@@ -103,7 +103,7 @@ const Header: React.FC = () => {
   //             <li>
   //               <Link
   //                 to="/leadership/lg-execs"
-  //                 className="block px-4 py-2 hover:bg-gray-100"
+  //                 className="block px-4 py-2 hover:bg-black hover:text-white"
   //               >
   //                 LG Executives
   //               </Link>
@@ -111,7 +111,7 @@ const Header: React.FC = () => {
   //             <li>
   //               <Link
   //                 to="/leadership/cdc-execs"
-  //                 className="block px-4 py-2 hover:bg-gray-100"
+  //                 className="block px-4 py-2 hover:bg-black hover:text-white"
   //               >
   //                 CDC Executives
   //               </Link>
@@ -119,7 +119,7 @@ const Header: React.FC = () => {
   //             <li>
   //               <Link
   //                 to="/leadership/past-chairmen"
-  //                 className="block px-4 py-2 hover:bg-gray-100"
+  //                 className="block px-4 py-2 hover:bg-black hover:text-white"
   //               >
   //                 Past Chairmen
   //               </Link>
@@ -151,7 +151,7 @@ const Header: React.FC = () => {
   //             <li>
   //               <Link
   //                 to="/cda/register-cda"
-  //                 className="block px-4 py-2 hover:bg-gray-100"
+  //                 className="block px-4 py-2 hover:bg-black hover:text-white"
   //               >
   //                 Register to join a CDA
   //               </Link>
@@ -159,7 +159,7 @@ const Header: React.FC = () => {
   //             <li>
   //               <Link
   //                 to="/cda/find-cda"
-  //                 className="block px-4 py-2 hover:bg-gray-100"
+  //                 className="block px-4 py-2 hover:bg-black hover:text-white"
   //               >
   //                 Find my CDA
   //               </Link>
@@ -191,7 +191,7 @@ const Header: React.FC = () => {
   //             <li>
   //               <Link
   //                 to="/resources/health-and-safety"
-  //                 className="block px-4 py-2 hover:bg-gray-100"
+  //                 className="block px-4 py-2 hover:bg-black hover:text-white"
   //               >
   //                 Health and Safety
   //               </Link>
@@ -199,7 +199,7 @@ const Header: React.FC = () => {
   //             <li>
   //               <Link
   //                 to="/resources/police-and-firestation"
-  //                 className="block px-4 py-2 hover:bg-gray-100"
+  //                 className="block px-4 py-2 hover:bg-black hover:text-white"
   //               >
   //                 Police and Fire Service
   //               </Link>
@@ -207,7 +207,7 @@ const Header: React.FC = () => {
   //             <li>
   //               <Link
   //                 to="/resources/education"
-  //                 className="block px-4 py-2 hover:bg-gray-100"
+  //                 className="block px-4 py-2 hover:bg-black hover:text-white"
   //               >
   //                 Education
   //               </Link>
@@ -215,7 +215,7 @@ const Header: React.FC = () => {
   //             <li>
   //               <Link
   //                 to="/resources/recreation"
-  //                 className="block px-4 py-2 hover:bg-gray-100"
+  //                 className="block px-4 py-2 hover:bg-black hover:text-white"
   //               >
   //                 Recreation
   //               </Link>
@@ -444,7 +444,7 @@ const Header: React.FC = () => {
               <li>
                 <Link
                   to="/leadership/lg-execs"
-                  className="block px-4 py-2 hover:bg-gray-100"
+                  className="block px-4 py-2 hover:bg-black hover:text-white"
                 >
                   LG Executives
                 </Link>
@@ -452,7 +452,7 @@ const Header: React.FC = () => {
               <li>
                 <Link
                   to="/leadership/cdc-execs"
-                  className="block px-4 py-2 hover:bg-gray-100"
+                  className="block px-4 py-2 hover:bg-black hover:text-white"
                 >
                   CDC Executives
                 </Link>
@@ -460,7 +460,7 @@ const Header: React.FC = () => {
               <li>
                 <Link
                   to="/leadership/past-chairmen"
-                  className="block px-4 py-2 hover:bg-gray-100"
+                  className="block px-4 py-2 hover:bg-black hover:text-white"
                 >
                   Past Chairmen
                 </Link>
@@ -492,7 +492,7 @@ const Header: React.FC = () => {
               <li>
                 <Link
                   to="/cda/register-cda"
-                  className="block px-4 py-2 hover:bg-gray-100"
+                  className="block px-4 py-2 hover:bg-black hover:text-white"
                 >
                   Register to join a CDA
                 </Link>
@@ -500,7 +500,7 @@ const Header: React.FC = () => {
               <li>
                 <Link
                   to="/cda/find-cda"
-                  className="block px-4 py-2 hover:bg-gray-100"
+                  className="block px-4 py-2 hover:bg-black hover:text-white"
                 >
                   Find my CDA
                 </Link>
@@ -532,7 +532,7 @@ const Header: React.FC = () => {
               <li>
                 <Link
                   to="/resources/health-and-safety"
-                  className="block px-4 py-2 hover:bg-gray-100"
+                  className="block px-4 py-2 hover:bg-black hover:text-white"
                 >
                   Health and Safety
                 </Link>
@@ -540,7 +540,7 @@ const Header: React.FC = () => {
               <li>
                 <Link
                   to="/resources/police-and-firestation"
-                  className="block px-4 py-2 hover:bg-gray-100"
+                  className="block px-4 py-2 hover:bg-black hover:text-white"
                 >
                   Police and Fire Service
                 </Link>
@@ -548,7 +548,7 @@ const Header: React.FC = () => {
               <li>
                 <Link
                   to="/resources/education"
-                  className="block px-4 py-2 hover:bg-gray-100"
+                  className="block px-4 py-2 hover:bg-black hover:text-white"
                 >
                   Education
                 </Link>
@@ -556,7 +556,7 @@ const Header: React.FC = () => {
               <li>
                 <Link
                   to="/resources/recreation"
-                  className="block px-4 py-2 hover:bg-gray-100"
+                  className="block px-4 py-2 hover:bg-black hover:text-white"
                 >
                   Recreation
                 </Link>
