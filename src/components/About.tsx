@@ -2,17 +2,17 @@ import mapImg from '../assets/images/mapImg.png'
 
 const About = () => {
   return (
-    <section className="w-full max-w-screen-2xl mx-auto px-8 sm:px-10 lg:px-20 py-20">
-      <div className="mb-10">
+    <section className="w-full px-8 py-20 mx-auto max-w-screen-2xl sm:px-10 lg:px-20">
+      <div className="mb-5">
         <h2 className="text-4xl font-bold">
           What You should Know about our CDC
         </h2>
         <div className="hidden w-56 h-2 mt-2 xl:flex bg-dark-green"></div>
       </div>
-      <div className="grid grid-cols-1 xl:grid-cols-2 gap-7 mx-auto">
+      <div className="grid grid-cols-1 mx-auto xl:grid-cols-2 gap-7">
         <div className="relative w-full max-w-xl pt-10 pb-3 mx-auto">
           {/* Green Background */}
-          <div className="absolute w-full h-32 rounded-lg md:h-64 top-7 md:top-5 left-3 md:left-7 bg-dark-green"></div>
+          <div className="absolute w-full h-32 rounded-lg md:h-64 top-7 md:top-8 left-3 md:left-3 bg-dark-green"></div>
 
           {/* Map Image */}
           <img
@@ -23,7 +23,7 @@ const About = () => {
           />
         </div>
         <div className="max-w-2xl">
-          <h3 className="pt-5 text-xl font-bold">
+          <h3 className="pt-5 text-3xl font-bold">
             A brief history about Ifako - Ijaiye CDC
           </h3>
           <div className={`font-actor`}>
@@ -36,7 +36,7 @@ const About = () => {
               Iju Railway, and Iju Ishaga, while Ifako had Ifako Forum,
               Arogangan, and Idi-Agbon
             </p>
-            <p className="mt-2 text-xl">
+            <p className="mt-2 text-lg">
               It was indeed a breakthrough for Ifako-Ijaiye CDC when the local
               government was created. It ended the unnecessary rigour of
               attending meetings and other activities outside the LGA.
@@ -44,7 +44,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <article className={`font-actor text-xl`}>
+      <article className={`font-actor text-lg`}>
         Meanwhile, it was the members of the CDAs who facilitated the setting up
         of the local government secretariat by mobilizing people from different
         communities to support the government in revenue generation and other

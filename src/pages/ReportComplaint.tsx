@@ -2,7 +2,7 @@ import React from 'react'
 
 const ReportComplaint = () => {
   return (
-    <div className="flex flex-col items-center justify-center w-full px-8 py-20 mx-auto max-w-screen-2xl sm:px-10 lg:px-20">
+    <div className="flex flex-col items-center justify-center w-full px-8 py-20 mx-auto max-w-screen-2xl sm:px-10 lg:px-20 ">
       <h2 className="max-w-5xl text-5xl font-bold text-center">
         You’re here because you’ll like to report a complaint
       </h2>
@@ -14,7 +14,7 @@ const ReportComplaint = () => {
           </label>
           <div className="flex items-center py-1 overflow-hidden border rounded-lg">
             {/* Prefix */}
-            <span className="px-3 py-1 text-gray-700 border-r">+234</span>
+            <span className="px-3 py-1 text-gray-400 border-r">+234</span>
             {/* Input Field */}
             <input
               type="tel"
@@ -64,7 +64,7 @@ const ReportComplaint = () => {
             id="report-type"
             className="w-full px-4 py-2 mb-4 border rounded-lg focus:outline-none"
           >
-            <option value="">Select an option</option>
+            <option value="">--</option>
             <option value="issue1">Issue 1</option>
             <option value="issue2">Issue 2</option>
             <option value="issue3">Issue 3</option>

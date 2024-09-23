@@ -10,7 +10,7 @@ const Achievements = () => {
             <div className="w-56 h-2 mt-1 bg-dark-green"></div>
           </div>
 
-          <ol className={`font-actor list-decimal space-y-5 text-xl`}>
+          <ol className={`font-actor list-decimal space-y-5 text-lg`}>
             <li>
               Maintaining a cordial relationship with the local government to
               foster grassroots development.

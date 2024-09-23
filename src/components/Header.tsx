@@ -429,17 +429,19 @@ const Header: React.FC = () => {
 
   return (
     <header className="bg-white shadow-md">
-      <section className="flex items-center justify-between px-4 py-3 bg-light-green lg:px-20">
-        <div className="font-bold text-white">WE ONE...</div>
-        <div className="flex space-x-5">
-          <img src={facebook} className="w-5 h-5" alt="facebook" />
-          <img src={instagram} className="w-5 h-5" alt="instagram" />
-          <img src={mail} className="w-5 h-5" alt="mail" />
+      <div className="bg-light-green">
+        <div className="flex items-center justify-between px-4 py-3 mx-auto bg-light-green lg:px-20 max-w-screen-2xl">
+          <div className="font-bold text-white">WE ONE...</div>
+          <div className="flex space-x-5">
+            <img src={facebook} className="w-5 h-5" alt="facebook" />
+            <img src={instagram} className="w-5 h-5" alt="instagram" />
+            <img src={mail} className="w-5 h-5" alt="mail" />
+          </div>
         </div>
-      </section>
+      </div>
 
-      <section className="flex items-center justify-between px-4 py-3 lg:px-20">
-        <div className="flex items-center flex-shrink-0">
+      <section className="flex items-center justify-between px-4 py-3 mx-auto lg:px-20 max-w-screen-2xl">
+        <div className="flex items-center">
           <img alt="logo" src={logo} className="w-14 h-14 md:w-20 md:h-20" />
         </div>
         <div className="hidden xl:block">

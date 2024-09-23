@@ -8,8 +8,8 @@ import mail from '../assets/icons/mail.svg'
 
 const Footer: React.FC = () => {
   return (
-    <footer className="text-white bg-dark-blue">
-      <div className="grid grid-cols-1 gap-5 px-8 py-20 border-b border-gray-500 sm:px-20 md:grid-cols-2">
+    <footer className="text-white bg-dark-blue ">
+      <div className="grid grid-cols-1 gap-5 px-8 py-20 mx-auto sm:px-20 md:grid-cols-2 max-w-screen-2xl">
         <section className="space-y-4">
           <div>
             {/* Replacing next/image with standard img */}
@@ -49,7 +49,7 @@ const Footer: React.FC = () => {
           </div>
         </section>
       </div>
-      <div className="py-3 text-center text-white">
+      <div className="py-3 text-center text-white border-t border-gray-500">
         <p>
           <span className="font-bold">&copy;</span> 2024 Ifako-Ijaiye CDC
         </p>
