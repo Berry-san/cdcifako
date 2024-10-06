@@ -98,10 +98,11 @@ const Carousel: React.FC<CarouselProps> = ({ articles }) => {
       </div>
 
       {/* Navigation Arrows */}
-      <div className="absolute bottom-0 left-0 right-0 flex items-center justify-center mt-4">
+      <div className="flex items-center justify-center mt-4">
         <button
           onClick={handlePrev}
-          className="p-2 mx-2 bg-gray-300 rounded-full hover:bg-gray-400"
+          disabled={currentIndex === 0}
+          className="p-2 mx-2 bg-gray-300 hover:bg-gray-400"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -120,7 +121,7 @@ const Carousel: React.FC<CarouselProps> = ({ articles }) => {
         </button>
         <button
           onClick={handleNext}
-          className="p-2 mx-2 bg-gray-300 rounded-full hover:bg-gray-400"
+          className="p-2 mx-2 bg-gray-300 hover:bg-gray-400"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
